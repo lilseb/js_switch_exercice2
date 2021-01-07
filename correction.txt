@@ -1,0 +1,106 @@
+// Exercice 1
+
+//1 
+// let jSemaine = prompt('Le jour de la semaine?').toLowerCase();
+
+// switch (jSemaine) {
+//     case "lundi": case "mardi": case "mercredi" :
+//         console.log(`${jSemaine} MolenGeek`);
+//         break;
+//     case "jeudi": case "vendredi":
+//         console.log(`${jSemaine} elearning`);
+//         break;
+//     case "samedi": case "dimanche":
+//         console.log('maison');
+//         break;
+//     default:
+//         console.log('Error, reconnais pas le jour');
+//         break;
+// }
+
+//2
+
+// let age = parseInt(prompt('Entrez votre âge?'));
+
+// switch (isNaN(age)) {
+//     case true:
+//         console.log(`Error n'est pas un nombre`);
+//         break;
+//     case false:
+//         switch (age >=18 ) {
+//             case true:
+//                 console.log("Il a plus de 18ans");
+//                 break;
+//             case false:
+//                 console.log("ll a moins de 18ans");
+//         }
+//         break;
+// }
+
+// Exercice 2 
+
+//1
+
+// let nb = parseInt(prompt('Entrez un nombre:'));
+
+// console.log(nb % 2);
+// console.log(nb % 2 == 0);
+
+// switch (isNaN(nb)) {
+//     case true:
+//         console.log('Error -> NaN');
+//         break;
+//     case false:
+//         switch (nb % 2 == 0) {
+//             case true:
+//                 console.log(`${nb} est un nombre paire`);
+//                 break;
+//             case false:
+//                 console.log(`${nb} est un nombre impaire`);
+//                 break;
+//         }
+//         break;
+// }
+
+
+//2 
+
+// let mois = parseInt(prompt("Entrez le nombre qui correspond au mois que vous êtes?"))
+
+// switch (isNaN(mois)) {
+//     case true:
+//         console.log("Error -> NaN");
+//         break;
+//     case false:
+//         switch (mois) {
+//             case 1:
+//                 console.log('Janvier');
+//                 break;
+//             case 2:
+//                 console.log('Fevrier');
+//                 break;
+//             case 3:
+//                 console.log('Mars');
+//                 break;
+//             case 4:
+//                 console.log('Avril');
+//                 break;
+//             case 5:
+//                 console.log('Mai');
+//                 break;
+//         }
+//         break;
+// }
+
+let mois = prompt("Entrez le nombre qui correspond au mois que vous êtes?")
+switch (mois) {
+    case "1":
+        console.log('Janvier');
+        break;
+    case "2":
+        console.log('fevrier');
+        break
+    default:
+        console.log('inconnu');
+        break;
+}
